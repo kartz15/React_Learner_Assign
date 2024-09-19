@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    color: rgb(64, 53, 180);
+    font-family: Arial, sans-serif;
+  }
+  
+  .learner {
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .learner:nth-child(odd) {
+    background-color: #bae49a; /* Bright red */
+  }
+  
+  .learner:nth-child(even) {
+    background-color: #80cdb6; /* Bright green */
+  }
+  
+  .learner:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .learner h2 {
+    margin: 0 0 8px;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .learner p {
+    font-size: 1em;
+    margin-bottom: 12px;
+  }
+  
+  .learner h3 {
+    margin: 16px 0 8px;
+    font-size: 1.5em;
+    color: #35300c; /* Bright yellow for contrast */
+  }
+  
+  .scores-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .scores-list li {
+    margin: 4px 0;
+    font-size: 0.9em;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+  }
+  
+  .scores-list li:hover {
+    background: rgba(255, 255, 255, 0.4);
+  }
+  
